@@ -5,8 +5,6 @@ document.body.addEventListener("click", function () {
   }
 });
 
-
-
 const botoes = document.querySelectorAll(".botoes-carrossel .botao");
 
 const imagens = document.querySelectorAll(".carrosel .imagem"); 
@@ -31,4 +29,6 @@ botoes.forEach((botao, index) =>  {
 
 })
 })
+
+
 
